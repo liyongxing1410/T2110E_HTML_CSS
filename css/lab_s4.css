@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: scroll;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.item {
+  box-shadow: 0 0 0.5rem #888888;
+}
+
+.item img {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.product-info {
+  text-align: center;
+}
+
+.product-info h3 {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.product-info p {
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.details {
+  background-color: #000;
+  text-align: center;
+  height: 3rem;
+}
+
+.details p {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 3rem;
+}
