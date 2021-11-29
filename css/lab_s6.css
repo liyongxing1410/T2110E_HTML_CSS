@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: scroll;
+}
+
+.double-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.general {
+  padding: 1rem;
+  background-color: #ddd;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border: none;
+  border-bottom: 0.2rem solid black;
+  color: #666;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.box > div {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+input::placeholder {
+  color: #666;
+}

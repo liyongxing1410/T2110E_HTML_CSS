@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form submit</title>
+    <link rel="stylesheet" href="./css/lab_s6.css"
+  </head>
+  <body>
+    <div class="container">
+      <p>Create task</p>
+      <input type="text" class="type general" placeholder="Type" />
+      <div class="double-cols">
+        <select class="general">
+          <option value="company" select>Company</option>
+        </select>
+        <select class="general">
+          <option value="opportunity" select>Opportunity</option>
+        </select>
+      </div>
+      <input class="general" type="text" class="task" placeholder="Task name" />
+      <input class="general" type="text" class="cc" placeholder="CC" />
+      <div class="double-cols">
+        <div class="box">
+          <p>Nature of request</p>
+          <div><input type="checkbox" /> <label>Ads review</label></div>
+          <div><input type="checkbox" /> <lable>Keywords review</lable></div>
+          <div><input type="checkbox" /> <lable>Extensions review</lable></div>
+        </div>
+        <div class="box">
+          <p>Current reviewable status</p>
+          <div>
+            <input type="radio" name="consults" value="approved" />
+            <lable>Approved</lable>
+          </div>
+          <div>
+            <input type="radio" name="consults" value="not_approved" />
+            <lable>Not approved</lable>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
