@@ -9,10 +9,6 @@ html {
   overflow: scroll;
 }
 
-body {
-  background-color: black;
-}
-
 .container {
   margin: 0 auto;
   padding: 10rem;
@@ -29,7 +25,7 @@ body {
   display: flex;
   width: 30rem;
   flex-direction: column;
-  background-color: #ccc;
+  background-color: rgba(220, 220, 220, 0.5);
   position: relative;
   padding: 1rem;
 }
