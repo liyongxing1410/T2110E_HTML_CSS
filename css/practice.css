@@ -67,7 +67,7 @@ html {
 .input input {
   background-color: #ddd;
   border: none;
-  padding: 0.3rem 0.3rem 0.3rem 5rem;
+  padding: 0.3rem 5rem 0.3rem 5rem;
 }
 
 .input-check {
